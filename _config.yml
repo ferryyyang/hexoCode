@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Ferry BOKE
 subtitle: ''
 description: ''
 keywords:
-author: Ferryyyang
+author: Ferry
 language: zh-CN
 timezone: ''
 
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -93,11 +93,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+##theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/ferryyyang/ferryyyang.github.io #<你的仓库地址> # https://github.com/TJ-XiaJiaHao/TJ-XiaJiaHao.github.io
+  repo: https://github.com/ferryyyang/ferryyyang.github.io # https://github.com/TJ-XiaJiaHao/TJ-XiaJiaHao.github.io
   branch: master
